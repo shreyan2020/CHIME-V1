@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,FISH_SLICE,DINNER_CUTLERY,cds_part_obj_color_shape,FISH_SLICE,squeezenet_utensil_shape_bias,top_of_spatula,9,10,10,0.9,1.0
+1,FISH_SLICE,DINNER_CUTLERY,cds_part_obj_color_shape,FISH_SLICE,squeezenet_utensil_shape_bias,guitar,9,9,9,1.0,1.0
+2,FISH_SLICE,DINNER_CUTLERY,cds_part_obj_color_shape,FISH_SLICE,squeezenet_utensil_shape_bias,shadow_of_spatula,7,7,8,0.875,0.875
+3,FISH_SLICE,DINNER_CUTLERY,cds_part_obj_color_shape,FISH_SLICE,squeezenet_utensil_shape_bias,head_of_spatula,4,4,4,1.0,1.0
+4,DINNER_CUTLERY,FISH_SLICE,cds_part_obj_color_shape,FISH_SLICE,squeezenet_utensil_shape_bias,bottom_of_spatula,5,10,10,0.5,1.0

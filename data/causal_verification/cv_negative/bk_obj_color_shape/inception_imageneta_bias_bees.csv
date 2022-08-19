@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,bees,ants,bk_obj_color_shape,bees,inception_imageneta_bias,dog,7,9,10,0.7,0.9
+1,ants,bees,bk_obj_color_shape,bees,inception_imageneta_bias,leaf,1,4,8,0.125,0.5
+2,mantis,ants,bk_obj_color_shape,bees,inception_imageneta_bias,background_color_color_gold,0,1,2,0.0,0.5
+3,mantis,ants,bk_obj_color_shape,bees,inception_imageneta_bias,background_color_color_black,0,0,4,0.0,0.0
+4,mantis,bees,bk_obj_color_shape,bees,inception_imageneta_bias,toiletpaper,2,5,10,0.2,0.5

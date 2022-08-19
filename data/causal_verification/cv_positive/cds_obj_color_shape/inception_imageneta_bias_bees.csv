@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,bees,ants,cds_obj_color_shape,bees,inception_imageneta_bias,camera,2,4,6,0.3333333333333333,0.6666666666666666
+1,bees,mantis,cds_obj_color_shape,bees,inception_imageneta_bias,bee,7,7,9,0.7777777777777778,0.7777777777777778
+2,mantis,ants,cds_obj_color_shape,bees,inception_imageneta_bias,shape_triangle,0,0,6,0.0,0.0
+3,mantis,ants,cds_obj_color_shape,bees,inception_imageneta_bias,finger,0,1,9,0.0,0.1111111111111111
+4,mantis,bees,cds_obj_color_shape,bees,inception_imageneta_bias,furniture,0,4,9,0.0,0.4444444444444444

@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,mantis,bees,cds_obj_color,ants,squeezenet_imageneta_bias,ant,1,7,10,0.1,0.7
+1,ants,mantis,cds_obj_color,ants,squeezenet_imageneta_bias,background_color_color_gray,4,4,6,0.6666666666666666,0.6666666666666666
+2,mantis,bees,cds_obj_color,ants,squeezenet_imageneta_bias,background_color_color_maroon,0,2,4,0.0,0.5
+3,mantis,ants,cds_obj_color,ants,squeezenet_imageneta_bias,background_color_color_plum,2,5,5,0.4,1.0
+4,ants,mantis,cds_obj_color,ants,squeezenet_imageneta_bias,background_color_color_skin,2,4,4,0.5,1.0

@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,FISH_SLICE,DINNER_FORK_KNIFE,cds_part_obj_color,DINNER_CUTLERY,squeezenet_utensil_both_bias,handle_of_spatula,5,10,10,0.5,1.0
+1,DINNER_FORK_KNIFE,TEA_SPOON,cds_part_obj_color,DINNER_CUTLERY,squeezenet_utensil_both_bias,spoon,5,8,8,0.625,1.0
+2,FISH_SLICE,DINNER_FORK_KNIFE,cds_part_obj_color,DINNER_CUTLERY,squeezenet_utensil_both_bias,spatula,5,10,10,0.5,1.0
+3,FISH_SLICE,DINNER_FORK_KNIFE,cds_part_obj_color,DINNER_CUTLERY,squeezenet_utensil_both_bias,head_of_spatula,1,4,4,0.25,1.0
+4,FISH_SLICE,DINNER_FORK_KNIFE,cds_part_obj_color,DINNER_CUTLERY,squeezenet_utensil_both_bias,light_reflection_of_spoon,2,7,7,0.2857142857142857,1.0

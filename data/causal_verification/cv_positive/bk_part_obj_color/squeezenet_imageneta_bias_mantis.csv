@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,mantis,ants,bk_part_obj_color,mantis,squeezenet_imageneta_bias,inside_of_basket,6,10,10,0.6,1.0
+1,mantis,bees,bk_part_obj_color,mantis,squeezenet_imageneta_bias,string_of_tree,7,8,10,0.7,0.8
+2,ants,mantis,bk_part_obj_color,mantis,squeezenet_imageneta_bias,background_color_color_skin,2,4,4,0.5,1.0
+3,bees,mantis,bk_part_obj_color,mantis,squeezenet_imageneta_bias,background_of_photo,7,9,9,0.7777777777777778,1.0
+4,ants,bees,bk_part_obj_color,mantis,squeezenet_imageneta_bias,middle_of_insect,5,8,10,0.5,0.8

@@ -1,0 +1,30 @@
+<h2 mat-dialog-title>Consent Form</h2>
+<mat-dialog-content class="mat-typography">
+    <p>
+        We are a group of researchers at the Technical University of Delft in The Netherlands. In this research project, we aim to investigate and characterise the behaviour of existing computer vision models, a particular group of Artificial Intelligence techniques that deals with images and videos. Since we do not fully understand their behaviour yet, we aim to characterise their behaviour by means of statistical analysis of annotated images. As such, you are invited to participate in our research study.
+    </p>
+        
+    <p>
+        The following task is part of the research project described above. Upon accessing the web application you will be presented with two images and a table. The first image in the original photo, while the second one represents what the model might be looking at when performing actions. Your task is to enter in the table the details about the object(s) you think the model is looking at. You can add multiple ones, and also specify individual parts of the object(s). Once you are done with this click “Next” to move to the next pair of images. There are only 5 in total.
+    </p>
+    
+    <p>
+        Completion of these tasks do not require any specific equipment. Your participation in this task is entirely voluntary and you can withdraw at any time. We do not collect any data aside from the information described above, some demographics (gender and age) from the crowd sourcing platform, and your a randomly assigned worker identifier.
+    </p>
+
+    <p>
+        We will keep your information confidential to the best of our ability. All data is stored in a password protected electronic format. Be aware that the data we gather with this task might be published in an anonymised form later. Such an anonymised data set would include the answers you provide in this task, but no personal information (e.g., your worker ID) so that the answers will not be traceable back to you.
+
+    </p>    
+    <p>
+        By clicking “I consent” at the bottom of this page, you confirm that you have read, understood, and consent to the above information.
+    </p>
+    <p>
+        Note: You can at any time click on the consent button at the top right corner of the screen and click Disagree to revoke your participation.
+    </p>
+ 
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close (click)="handleWarningAlert()">Disagree</button>
+  <button mat-button mat-dialog-agree (click)="dialogRef.close(true)">I Consent</button>
+</mat-dialog-actions>

@@ -1,0 +1,57 @@
+treatment,score
+primary_concept_spatula,0.38763879276874785
+primary_concept_bottom_of_scraper,0.36979911506787555
+primary_concept_metal_drainer/spatula,0.35767572895137256
+primary_concept_top_of_scraper,0.3270893864072571
+primary_concept_fork,0.3126729746623374
+primary_concept_bottom-right-corner_of_spatial,0.3072491093270168
+primary_concept_light_gradient_of_background,0.23846554194404174
+color_red,0.22177918437309319
+primary_concept_knife,0.1967117306912583
+primary_concept_light_reflections_of_fork,0.17918230156601894
+color_white,0.1733679703258253
+primary_concept_tail_of_fork,0.16549801081685794
+primary_concept_middle_of_background,0.16381986330859294
+shape_straight,0.162717491088118
+shape_line,0.151203156477408
+shape_linear,0.14903408434552085
+primary_concept_bottom_of_utensil,0.1487810644750696
+primary_concept_handle_of_fork,0.13642474274065353
+shape_ellipse,0.12364834348330866
+color_green,0.10325022280789914
+shape_curve,0.06999727964068814
+shape_fork,0.0334028415963602
+color_blue,0.020533711104215757
+color_black,0.01571115674915563
+color_palegoldenrod,0.006829611664415869
+primary_concept_background,0.0029609740378245264
+color_grey,-0.47237376709994694
+shape_rectangular,-0.47037815707780606
+shape_long,-0.4660504376811639
+color_yellow,-0.33988086397187023
+primary_concept_spoon,-0.30803196543613226
+shape_square,-0.21737589904101157
+color_silver,-0.18609415870592144
+color_lightbronze,-0.16484983590858293
+primary_concept_handle_of_knife,-0.15422346081081162
+color_beige,-0.15422346081081162
+primary_concept_butter_knife,-0.15231871993243173
+shape_spoon and long,-0.13198530811245213
+shape_fork shape,-0.1075840529249461
+primary_concept_bottom_of_knife,-0.09098805381207287
+color_gold,-0.0900020448514236
+primary_concept_head_of_fork,-0.0822023093588814
+primary_concept_background_of_fork,-0.06902521082809726
+color_darkgray,-0.06848804184822022
+shape_rectangle with curved edges,-0.0672291801653403
+color_golden,-0.042833734510134336
+color_maroon,-0.04269478376979757
+color_olive,-0.04094133158451563
+primary_concept_background_of_knife,-0.03705037584118215
+primary_concept_head_of_knife,-0.03255258299114683
+color_gray,-0.023759507463108176
+shape_spoon,-0.023759507463108065
+color_bronze,-0.020633093618243337
+shape_flower floral,-0.02063309361824256
+color_brown,-0.010396525275438162
+shape_rectangle,-0.00042522134427958047

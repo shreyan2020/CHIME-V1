@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,mantis,ants,bk_part_obj_color_shape,ants,inception_imageneta_bias,head_of_grasshopper,2,3,6,0.3333333333333333,0.5
+1,mantis,ants,bk_part_obj_color_shape,ants,inception_imageneta_bias,top-left_of_tree,1,5,8,0.125,0.625
+2,mantis,ants,bk_part_obj_color_shape,ants,inception_imageneta_bias,window,0,1,9,0.0,0.1111111111111111
+3,mantis,ants,bk_part_obj_color_shape,ants,inception_imageneta_bias,mantis,0,8,10,0.0,0.8
+4,mantis,ants,bk_part_obj_color_shape,ants,inception_imageneta_bias,door,0,5,9,0.0,0.5555555555555556

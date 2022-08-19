@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,bees,mantis,bk_part_obj_color,ants,inception_imageneta_bias,background_color_color_clear,6,7,8,0.75,0.875
+1,mantis,ants,bk_part_obj_color,ants,inception_imageneta_bias,head_of_grasshopper,2,3,6,0.3333333333333333,0.5
+2,mantis,ants,bk_part_obj_color,ants,inception_imageneta_bias,top-left_of_tree,1,5,8,0.125,0.625
+3,mantis,ants,bk_part_obj_color,ants,inception_imageneta_bias,mantis,0,8,10,0.0,0.8
+4,mantis,bees,bk_part_obj_color,ants,inception_imageneta_bias,tree,1,4,9,0.1111111111111111,0.4444444444444444

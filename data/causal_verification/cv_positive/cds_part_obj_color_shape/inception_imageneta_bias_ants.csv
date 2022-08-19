@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,bees,mantis,cds_part_obj_color_shape,ants,inception_imageneta_bias,branding_paper,2,7,8,0.25,0.875
+1,ants,mantis,cds_part_obj_color_shape,ants,inception_imageneta_bias,bottle_cap,7,9,9,0.7777777777777778,1.0
+2,bees,ants,cds_part_obj_color_shape,ants,inception_imageneta_bias,shape_oval,1,4,4,0.25,1.0
+3,mantis,bees,cds_part_obj_color_shape,ants,inception_imageneta_bias,bottom-right-corner_of_pump,1,2,8,0.125,0.25
+4,mantis,ants,cds_part_obj_color_shape,ants,inception_imageneta_bias,shape_circle,0,2,4,0.0,0.5

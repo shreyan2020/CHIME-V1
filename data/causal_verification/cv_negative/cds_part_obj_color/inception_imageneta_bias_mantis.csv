@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,ants,bees,cds_part_obj_color,mantis,inception_imageneta_bias,ant,1,5,10,0.1,0.5
+1,bees,mantis,cds_part_obj_color,mantis,inception_imageneta_bias,outercircle_of_wheel,5,6,7,0.7142857142857143,0.8571428571428571
+2,mantis,ants,cds_part_obj_color,mantis,inception_imageneta_bias,middle_of_wheel,3,4,6,0.5,0.6666666666666666
+3,bees,mantis,cds_part_obj_color,mantis,inception_imageneta_bias,camera,1,4,7,0.14285714285714285,0.5714285714285714
+4,bees,ants,cds_part_obj_color,mantis,inception_imageneta_bias,middle_of_bicycle,0,3,10,0.0,0.3

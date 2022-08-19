@@ -1,0 +1,10 @@
+
+  <mat-stepper linear #flowStepper>
+
+    <mat-step *ngFor="let step of stepper" completed="false" >
+     <ng-container *ngIf="step === flowStepper.selectedIndex">
+     <app-annotations [stepperIndex]=step (nextStepper)="goNext(flowStepper)"></app-annotations>
+     </ng-container>
+    </mat-step>
+   </mat-stepper>
+ 

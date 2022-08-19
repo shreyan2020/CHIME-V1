@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,mantis,bees,cds_obj_color_shape,bees,inception_imageneta_bias,doormat,4,6,8,0.5,0.75
+1,ants,bees,cds_obj_color_shape,bees,inception_imageneta_bias,shape_tree,0,3,7,0.0,0.42857142857142855
+2,mantis,bees,cds_obj_color_shape,bees,inception_imageneta_bias,shape_plant,1,5,10,0.1,0.5
+3,ants,mantis,cds_obj_color_shape,bees,inception_imageneta_bias,shape_irregular,0,0,4,0.0,0.0
+4,mantis,ants,cds_obj_color_shape,bees,inception_imageneta_bias,shape_mantis,0,1,9,0.0,0.1111111111111111

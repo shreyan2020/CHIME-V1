@@ -1,0 +1,31 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  .example-option-img {
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  
+  [dir='rtl'] .example-option-img {
+    margin-right: 0;
+    margin-left: 8px;
+  }
+  .img-container {
+    display:flex;
+     flex-wrap: wrap;
+    align-content: space-evenly;
+    }
+  .img-container img{
+    width:50%;
+    }
+    ::ng-deep .cdk-overlay-pane {
+      /* Do you changes here */
+      width: auto !important;
+  }

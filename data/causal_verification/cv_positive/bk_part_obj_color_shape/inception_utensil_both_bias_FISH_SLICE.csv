@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,DINNER_CUTLERY,FISH_SLICE,bk_part_obj_color_shape,FISH_SLICE,inception_utensil_both_bias,shade_of_spatula,5,8,10,0.5,0.8
+1,DINNER_CUTLERY,FISH_SLICE,bk_part_obj_color_shape,FISH_SLICE,inception_utensil_both_bias,side_of_spatula,6,9,9,0.6666666666666666,1.0
+2,FISH_SLICE,DINNER_CUTLERY,bk_part_obj_color_shape,FISH_SLICE,inception_utensil_both_bias,spatula,10,10,10,1.0,1.0
+3,FISH_SLICE,DINNER_CUTLERY,bk_part_obj_color_shape,FISH_SLICE,inception_utensil_both_bias,guitar,6,9,9,0.6666666666666666,1.0
+4,,,bk_part_obj_color_shape,FISH_SLICE,inception_utensil_both_bias,background_color_color_brown,0,0,0,0.0,

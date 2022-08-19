@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,mantis,ants,bk_obj_color_shape,bees,squeezenet_imageneta_bias,water_bottle,1,1,8,0.125,0.125
+1,mantis,ants,bk_obj_color_shape,bees,squeezenet_imageneta_bias,backpack,1,4,9,0.1111111111111111,0.4444444444444444
+2,ants,mantis,bk_obj_color_shape,bees,squeezenet_imageneta_bias,drinking_fountain,2,2,9,0.2222222222222222,0.2222222222222222
+3,bees,mantis,bk_obj_color_shape,bees,squeezenet_imageneta_bias,glass_jar,5,8,9,0.5555555555555556,0.8888888888888888
+4,mantis,bees,bk_obj_color_shape,bees,squeezenet_imageneta_bias,bee,1,8,9,0.1111111111111111,0.8888888888888888

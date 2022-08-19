@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,FISH_SLICE,TEA_SPOON,bk_obj_color,FISH_SLICE,squeezenet_utensil_shape_bias,spoon,5,8,8,0.625,1.0
+1,TEA_SPOON,FISH_SLICE,bk_obj_color,FISH_SLICE,squeezenet_utensil_shape_bias,teaspoon,3,9,9,0.3333333333333333,1.0
+2,DINNER_CUTLERY,TEA_SPOON,bk_obj_color,FISH_SLICE,squeezenet_utensil_shape_bias,background_color_color_olive,0,0,1,0.0,0.0
+3,FISH_SLICE,DINNER_CUTLERY,bk_obj_color,FISH_SLICE,squeezenet_utensil_shape_bias,fork,2,7,9,0.2222222222222222,0.7777777777777778
+4,DINNER_CUTLERY,FISH_SLICE,bk_obj_color,FISH_SLICE,squeezenet_utensil_shape_bias,knife,6,9,9,0.6666666666666666,1.0

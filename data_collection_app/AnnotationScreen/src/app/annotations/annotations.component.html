@@ -1,0 +1,114 @@
+<div class="container">
+    <form #myForm="ngForm" [formGroup]="objectForm" (ngSubmit)="onSubmit($event)">
+        <div class="row justify-content-center">
+            <img  class="images col-5 img-container" src={{imageOriginal}}/>
+            <img  class="images col-5 img-container" src={{imageSal}}/>
+          </div>
+
+      <table class="table table-bordered" formArrayName="objects">
+        <tr *ngFor="let quantity of objects().controls; let i=index" [formGroupName]="i">
+          <td>
+            <mat-label>Part of an Object?</mat-label>
+              <mat-checkbox formControlName="part_checked" class="form-control">
+              </mat-checkbox>
+          </td>
+         
+          <td *ngIf="quantity.get('part_checked')?.value">
+            <mat-label >Which Part?</mat-label>
+            <input  type="text" 
+            formControlName="obj_part"  class="form-control"
+            matInput
+             aria-label="Object"
+             [matAutocomplete]="auto_part"
+             required
+            >
+            <mat-error *ngIf="submitted && quantity.get('part_checked')?.value && quantity.get('obj_part')?.errors?.['required']">
+              Please enter a value for object part
+            </mat-error>
+            <mat-autocomplete #auto_part="matAutocomplete">
+              <mat-option *ngFor="let parts of filteredParts[i] | async" [value]="parts">
+                <small>{{parts}}</small>
+              </mat-option>
+            </mat-autocomplete>
+          </td>
+          
+          
+          <td *ngIf="quantity.get('part_checked')?.value"><b>of</b> 
+          </td>
+          
+          
+          <td>
+            <mat-label *ngIf="!quantity.get('part_checked')!.value">Object Name</mat-label>
+            <mat-label *ngIf="quantity.get('part_checked')!.value">Main Object Name</mat-label>
+            <input  type="text" 
+            formControlName="obj"  class="form-control"
+            matInput
+             aria-label="Object"
+             required
+            >
+            <mat-error *ngIf="submitted && quantity.get('obj')!.errors?.['required']">
+              Please enter a value for object
+            </mat-error>
+            <mat-autocomplete #auto_color="matAutocomplete">
+              <mat-option *ngFor="let colors of filteredColor[i] | async" [value]="colors">
+                <small>{{colors}}</small>
+              </mat-option>
+            </mat-autocomplete>
+          </td>
+          
+      
+          <td>
+              <mat-label *ngIf="!quantity.get('part_checked')!.value">Color</mat-label>
+              <mat-label *ngIf="quantity.get('part_checked')!.value">Color of the part</mat-label>
+  
+              <input type="text" 
+              formControlName="color" class="form-control"
+              matInput
+              aria-label="Color"
+              [matAutocomplete]="auto_color"
+              required
+              >
+              <mat-error *ngIf="submitted && quantity.get('color')!.errors?.['required']">
+                Please enter a value for color
+              </mat-error>
+              <mat-autocomplete #auto_color="matAutocomplete">
+                <mat-option *ngFor="let colors of filteredColor[i] | async" [value]="colors">
+                  <small>{{colors}}</small>
+                </mat-option>
+              </mat-autocomplete>
+              
+          </td>
+        
+          <td>
+              <mat-label *ngIf="!quantity.get('part_checked')!.value">Shape</mat-label>
+            <mat-label *ngIf="quantity.get('part_checked')!.value">Shape of the part</mat-label>
+            <input type="text" 
+            formControlName="shape"  class="form-control"
+            matInput
+             aria-label="Shape"
+            
+             [matAutocomplete]="auto_shape"
+            >
+          
+          <mat-autocomplete #auto_shape="matAutocomplete">
+            <mat-option *ngFor="let shape of filteredShape[i] | async" [value]="shape">
+              <small>{{shape}}</small>
+            </mat-option>
+          </mat-autocomplete>
+          </td>
+      
+     
+          <td>
+            <button type="button" mat-button  (click)="addQuantity()" class="btn btn-outline-primary">Add More</button>
+          </td>
+          <td>
+            <button mat-button (click)="removeQuantity(i)" class="btn btn btn-outline-danger">Remove</button>
+          </td>
+        </tr>
+      </table>
+     
+      <button type="submit" (click)="onSubmit" class="btn btn-success">Next</button>
+    </form>
+      
+    <br/>
+  </div>

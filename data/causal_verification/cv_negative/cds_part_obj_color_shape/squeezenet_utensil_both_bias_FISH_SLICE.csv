@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,DINNER_FORK_KNIFE,FISH_SLICE,cds_part_obj_color_shape,FISH_SLICE,squeezenet_utensil_both_bias,light_gradient_of_background,2,10,10,0.2,1.0
+1,DINNER_FORK_KNIFE,FISH_SLICE,cds_part_obj_color_shape,FISH_SLICE,squeezenet_utensil_both_bias,textures_of_background,3,10,10,0.3,1.0
+2,DINNER_FORK_KNIFE,FISH_SLICE,cds_part_obj_color_shape,FISH_SLICE,squeezenet_utensil_both_bias,textura/line_of_background,6,10,10,0.6,1.0
+3,FISH_SLICE,DINNER_FORK_KNIFE,cds_part_obj_color_shape,FISH_SLICE,squeezenet_utensil_both_bias,background_color_color_purple,2,4,5,0.4,0.8
+4,FISH_SLICE,DINNER_FORK_KNIFE,cds_part_obj_color_shape,FISH_SLICE,squeezenet_utensil_both_bias,background_color_color_plum,6,6,6,1.0,1.0

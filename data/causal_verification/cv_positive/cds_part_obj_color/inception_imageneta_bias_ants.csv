@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,mantis,ants,cds_part_obj_color,ants,inception_imageneta_bias,background_color_color_chocolate,0,2,3,0.0,0.6666666666666666
+1,mantis,ants,cds_part_obj_color,ants,inception_imageneta_bias,branding_paper,3,7,9,0.3333333333333333,0.7777777777777778
+2,bees,ants,cds_part_obj_color,ants,inception_imageneta_bias,bottle_cap,7,10,10,0.7,1.0
+3,mantis,ants,cds_part_obj_color,ants,inception_imageneta_bias,background_color_color_red,1,3,3,0.3333333333333333,1.0
+4,ants,mantis,cds_part_obj_color,ants,inception_imageneta_bias,background_color_color_yellow,3,5,6,0.5,0.8333333333333334

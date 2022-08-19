@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,DINNER_CUTLERY,FISH_SLICE,cds_obj_color_shape,FISH_SLICE,inception_utensil_shape_bias,background_color_color_blue,0,9,9,0.0,1.0
+1,TEA_SPOON,FISH_SLICE,cds_obj_color_shape,FISH_SLICE,inception_utensil_shape_bias,shape_parallelogram,1,4,6,0.16666666666666666,0.6666666666666666
+2,DINNER_CUTLERY,TEA_SPOON,cds_obj_color_shape,FISH_SLICE,inception_utensil_shape_bias,shape_spatula,1,4,9,0.1111111111111111,0.4444444444444444
+3,DINNER_CUTLERY,FISH_SLICE,cds_obj_color_shape,FISH_SLICE,inception_utensil_shape_bias,background_color_color_black,0,5,5,0.0,1.0
+4,DINNER_CUTLERY,FISH_SLICE,cds_obj_color_shape,FISH_SLICE,inception_utensil_shape_bias,background_color_color_cornstalk,0,6,6,0.0,1.0

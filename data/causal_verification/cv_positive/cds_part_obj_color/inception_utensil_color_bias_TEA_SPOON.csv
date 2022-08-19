@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,FISH_SLICE,TEA_SPOON,cds_part_obj_color,TEA_SPOON,inception_utensil_color_bias,head_of_teaspoon,0,8,10,0.0,0.8
+1,FISH_SLICE,TEA_SPOON,cds_part_obj_color,TEA_SPOON,inception_utensil_color_bias,light_reflections_of_spoon,0,8,10,0.0,0.8
+2,FISH_SLICE,TEA_SPOON,cds_part_obj_color,TEA_SPOON,inception_utensil_color_bias,spoon,0,7,8,0.0,0.875
+3,FISH_SLICE,TEA_SPOON,cds_part_obj_color,TEA_SPOON,inception_utensil_color_bias,head_of_spoon,2,7,9,0.2222222222222222,0.7777777777777778
+4,FISH_SLICE,TEA_SPOON,cds_part_obj_color,TEA_SPOON,inception_utensil_color_bias,handle_of_spoon,0,10,10,0.0,1.0

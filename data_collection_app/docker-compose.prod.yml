@@ -1,0 +1,28 @@
+version: "2.2"
+
+services:
+  apiservice:
+    build: ./services
+    expose:
+      - 5000
+    volumes:
+      - services/:/usr/local/services/
+    restart: unless-stopped
+
+
+  annotation_screen:
+    build: ./AnnotationScreen
+    ports:
+      - 80:80
+    depends_on:
+      - apiservice
+    volumes:
+      - screen:/usr/share/nginx/html/assets/
+    working_dir: /usr/local/annotation_screen/
+
+
+volumes:
+  services:
+    driver: local
+  screen:
+    driver: local

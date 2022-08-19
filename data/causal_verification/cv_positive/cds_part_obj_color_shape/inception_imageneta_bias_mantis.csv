@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,mantis,ants,cds_part_obj_color_shape,mantis,inception_imageneta_bias,legs_of_dog,2,7,10,0.2,0.7
+1,mantis,bees,cds_part_obj_color_shape,mantis,inception_imageneta_bias,background_color_color_grey,1,2,2,0.5,1.0
+2,mantis,ants,cds_part_obj_color_shape,mantis,inception_imageneta_bias,shape_rectangular,3,5,5,0.6,1.0
+3,ants,bees,cds_part_obj_color_shape,mantis,inception_imageneta_bias,background_color_color_gold,0,0,1,0.0,0.0
+4,mantis,bees,cds_part_obj_color_shape,mantis,inception_imageneta_bias,window,7,7,8,0.875,0.875

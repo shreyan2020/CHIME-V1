@@ -1,0 +1,48 @@
+treatment,score
+primary_concept_background,None
+color_green,None
+color_silver,None
+color_palegoldenrod,0.3692909996425387
+shape_square,0.36761719211084526
+primary_concept_knife,0.33278104928205404
+color_darkgray,0.3091925047954267
+color_black,0.3015371630054821
+primary_concept_butter_knife,0.23153045195103034
+color_lightbronze,0.23153045195102917
+color_grey,0.14117570486937064
+color_blue,0.07168843728827805
+primary_concept_spatula,0.037740202821706065
+primary_concept_metal_drainer/spatula,0.021622822775047068
+shape_rectangular,0.020228610816024506
+color_aqua,0.0009366210216208287
+color_beige,-0.3627193473884641
+shape_long,-0.36180770234458115
+color_olive,-0.3370861708601096
+color_maroon,-0.1910599963562256
+primary_concept_fork,-0.089970466972928
+primary_concept_spatial,-0.08788646303483595
+shape_straight,-0.08692965157537691
+shape_curve,-0.0869296515753768
+shape_line,-0.08662157380780919
+shape_linear,-0.04594658616147111
+primary_concept_knif,-0.045946586161470404
+shape_rectangle with curved edges,-0.039237323014139666
+shape_rectangle,-0.03672998552745162
+color_brown,-0.03568786514970694
+primary_concept_scraper,-0.032464275133318524
+shape_fork,-0.022819300862102695
+shape_spoon and long,-0.022548349115690577
+color_red,-0.021348147079880392
+primary_concept_spoon,-0.014849321987251154
+color_yellow,-0.013534237153548942
+primary_concept_teaspoon,-0.012523256464141638
+shape_fork shape,-0.006846252784435167
+color_white,-0.005843089642478552
+primary_concept_utensil,-0.0049347523732953535
+shape_ellipse,-0.00493475237329527
+color_gold,-0.0029721888054647233
+color_golden,-0.0007704811672286233
+color_gray,-0.000599968042567664
+shape_spoon,-0.0005999680425671922
+color_bronze,-0.0002841230050679988
+shape_flower floral,-0.00028412300506786003

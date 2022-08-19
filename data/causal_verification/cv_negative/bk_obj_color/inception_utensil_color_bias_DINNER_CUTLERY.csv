@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,FISH_SLICE,DINNER_FORK_KNIFE,bk_obj_color,DINNER_CUTLERY,inception_utensil_color_bias,background_color_color_blue,0,1,7,0.0,0.14285714285714285
+1,FISH_SLICE,DINNER_FORK_KNIFE,bk_obj_color,DINNER_CUTLERY,inception_utensil_color_bias,background_color_color_yellow,0,6,7,0.0,0.8571428571428571
+2,FISH_SLICE,TEA_SPOON,bk_obj_color,DINNER_CUTLERY,inception_utensil_color_bias,background_color_color_green,0,2,5,0.0,0.4
+3,FISH_SLICE,TEA_SPOON,bk_obj_color,DINNER_CUTLERY,inception_utensil_color_bias,background_color_color_red,0,3,4,0.0,0.75
+4,FISH_SLICE,TEA_SPOON,bk_obj_color,DINNER_CUTLERY,inception_utensil_color_bias,teaspoon,0,1,9,0.0,0.1111111111111111

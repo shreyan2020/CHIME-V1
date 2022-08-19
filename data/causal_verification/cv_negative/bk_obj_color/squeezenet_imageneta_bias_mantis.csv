@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,ants,mantis,bk_obj_color,mantis,squeezenet_imageneta_bias,keyboard,0,8,8,0.0,1.0
+1,ants,mantis,bk_obj_color,mantis,squeezenet_imageneta_bias,petri_dish,3,6,10,0.3,0.6
+2,mantis,ants,bk_obj_color,mantis,squeezenet_imageneta_bias,grass,9,9,9,1.0,1.0
+3,mantis,ants,bk_obj_color,mantis,squeezenet_imageneta_bias,glass_jar,6,7,9,0.6666666666666666,0.7777777777777778
+4,mantis,ants,bk_obj_color,mantis,squeezenet_imageneta_bias,infested_trash_can,5,8,9,0.5555555555555556,0.8888888888888888

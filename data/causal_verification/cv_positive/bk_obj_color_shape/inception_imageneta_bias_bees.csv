@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,mantis,bees,bk_obj_color_shape,bees,inception_imageneta_bias,background_color_color_beige,1,4,5,0.2,0.8
+1,bees,ants,bk_obj_color_shape,bees,inception_imageneta_bias,camera,1,3,5,0.2,0.6
+2,bees,mantis,bk_obj_color_shape,bees,inception_imageneta_bias,bicycle,7,8,8,0.875,1.0
+3,bees,mantis,bk_obj_color_shape,bees,inception_imageneta_bias,bee,7,7,9,0.7777777777777778,0.7777777777777778
+4,bees,ants,bk_obj_color_shape,bees,inception_imageneta_bias,seal,2,3,10,0.2,0.3

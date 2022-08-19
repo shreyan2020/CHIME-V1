@@ -1,0 +1,17 @@
+
+    <button class="my-class" mat-icon-button color="primary" aria-label="Conset" (click)="openInstructionWindow('consent')" >
+      <mat-icon>warning</mat-icon>
+      <mat-label>Consent</mat-label>
+    </button>
+    <button class="my-class" mat-icon-button color="primary" aria-label="Instructions" (click)="openInstructionWindow('instructions')" >
+      <mat-icon>info</mat-icon>
+      <mat-label>Instructions</mat-label>
+    </button>
+    <mat-divider></mat-divider>
+  <mat-stepper linear #flowStepper>
+   <mat-step *ngFor="let step of stepper" completed="false" >
+    <ng-container *ngIf="step === flowStepper.selectedIndex">
+    <app-annotations [stepperIndex]=step (nextStepper)="goNext(flowStepper)"></app-annotations>
+    </ng-container>
+   </mat-step>
+  </mat-stepper>

@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,FISH_SLICE,DINNER_CUTLERY,cds_part_obj_color_shape,DINNER_CUTLERY,inception_utensil_both_bias,background_color_color_silver,0,4,4,0.0,1.0
+1,DINNER_CUTLERY,FISH_SLICE,cds_part_obj_color_shape,DINNER_CUTLERY,inception_utensil_both_bias,fork,2,6,6,0.3333333333333333,1.0
+2,FISH_SLICE,DINNER_CUTLERY,cds_part_obj_color_shape,DINNER_CUTLERY,inception_utensil_both_bias,knife,1,8,8,0.125,1.0
+3,DINNER_CUTLERY,FISH_SLICE,cds_part_obj_color_shape,DINNER_CUTLERY,inception_utensil_both_bias,knife_handle,4,10,10,0.4,1.0
+4,DINNER_CUTLERY,FISH_SLICE,cds_part_obj_color_shape,DINNER_CUTLERY,inception_utensil_both_bias,background_of_photo,3,9,9,0.3333333333333333,1.0

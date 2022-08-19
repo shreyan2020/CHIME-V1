@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,DINNER_CUTLERY,TEA_SPOON,bk_part_obj_color_shape,TEA_SPOON,inception_utensil_shape_bias,butter_knife,2,7,10,0.2,0.7
+1,DINNER_CUTLERY,FISH_SLICE,bk_part_obj_color_shape,TEA_SPOON,inception_utensil_shape_bias,top_of_spatula,1,5,10,0.1,0.5
+2,DINNER_CUTLERY,TEA_SPOON,bk_part_obj_color_shape,TEA_SPOON,inception_utensil_shape_bias,middle_of_knife,0,6,9,0.0,0.6666666666666666
+3,DINNER_CUTLERY,FISH_SLICE,bk_part_obj_color_shape,TEA_SPOON,inception_utensil_shape_bias,knife,0,1,9,0.0,0.1111111111111111
+4,DINNER_CUTLERY,TEA_SPOON,bk_part_obj_color_shape,TEA_SPOON,inception_utensil_shape_bias,background_color_color_white,0,1,5,0.0,0.2

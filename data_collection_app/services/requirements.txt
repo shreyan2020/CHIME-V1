@@ -1,0 +1,5 @@
+django-cors-headers==3.11.0
+Django==3.2.4
+djangorestframework==3.13.1
+elasticsearch==7.17.3
+gunicorn==20.1.0

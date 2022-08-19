@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,mantis,ants,cds_obj_color,ants,inception_imageneta_bias,tree,0,4,8,0.0,0.5
+1,mantis,ants,cds_obj_color,ants,inception_imageneta_bias,mantis,0,8,10,0.0,0.8
+2,mantis,ants,cds_obj_color,ants,inception_imageneta_bias,insect,3,7,10,0.3,0.7
+3,bees,ants,cds_obj_color,ants,inception_imageneta_bias,dog,0,4,10,0.0,0.4
+4,ants,mantis,cds_obj_color,ants,inception_imageneta_bias,seal,3,9,10,0.3,0.9

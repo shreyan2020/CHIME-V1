@@ -1,0 +1,66 @@
+<h2 mat-dialog-title>Instructions</h2>
+<mat-dialog-content class="mat-typography">
+    
+    <table>
+        <tr>
+            <td> 
+                <strong>INTRODUCTION</strong>
+                <p>In this study, we are interested in characterising which objects in images cause a certain outcome in a Computer Vision model. For this purpose, you will see the original image (on the left) and a processed version of it (on the right), highlighting what the model thinks is important when making a decision. The warmer the colour, the more important that patch is. That is, blue means low importance, and red means high importance.</p>
+                <p><img src="/assets/instructions/cmap.jpg"/></p>
+                <p>You are invited to tag the objects, and related properties (like shape and colour), that you think the model is looking at. You will be doing this for 5 different images.</p>
+            </td>
+            <!-- <td> <img src="/assets/instructions/wip.gif" /></td> -->
+        </tr>
+        <tr>
+            <td>
+		    <p> <strong>GENERAL INSTRUCTIONS: </strong> </p>
+               <ul class="dashed">
+                   <li>The background of an image can also be considered as an object to be tagged;</li>
+                   <li>The suggestions in each field are provided for guidance, you can enter values outside of those provided</li>
+                   <li>You <strong>must complete annotate all 5 images to complete the task</strong>;</li>
+                   <li>Press "Next" when you are done listing down all the objects for an image to move to the next image;</li>
+                   <li>At the end, you will be automatically redirected back to Prolific;</li>
+                   <li>An image might display multiple objects, use the "Add More" button on the right to add more than one object;</li>
+		   <li>You can also remove any concept at any time by clicking the "Remove" button beside it.</li>
+               </ul>                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>DEMO: </strong>Below is a video that showcases how to use the application</p>
+                <p><img src="/assets/instructions/howto.gif"/></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>CASES: Following cases can occur</strong></p>
+		<p><strong>CASE 1: </strong>The entirety (or majority) of an object is highlighted</p>
+		     <ul class="dashed">
+			     <li> Object name: the name of the highlighted object;</li>
+			     <li>Colour: the colour of the object as in the original image;</li>
+			     <li>Shape: the shape of the object as in the original image;</li>
+			</ul>
+
+	         <p><strong>CASE 2: </strong> A small portion of the object is higlighted</p>
+		 <ul class="dashed">
+			 <li>Tick "Part of an Object?" - Which Part?: here you can specify which part of that object has been highlighted. For this, try to be as specific as you can. For example, "leg" for the leg of chair;</li>
+			 <li>Main Object Name: the name of the object;</li>
+			 <li>Colour of the part: the colour of the highlighted part as in the original image;</li>
+			 <li>Shape of the part: the shape of the highlighted part as in the original image;</li>
+                 </ul>
+                <p><strong>NOTE: If you are not sure about whether case 1 or case 2 applies for your task, you can add both</strong></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>You can come back to this instruction page by clicking on "Instructions" up top</p>
+                <strong><p>REMEMBER: At any point in time you are free to revoke your consent and withdraw from the experiment. To do so, click on the "Consent" button up top and then select "Disagree".</p></strong>
+            </td>
+        </tr>
+    </table>
+  
+ 
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>

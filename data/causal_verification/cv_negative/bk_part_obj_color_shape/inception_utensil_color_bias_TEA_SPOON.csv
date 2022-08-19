@@ -1,0 +1,6 @@
+,predicted_class_1,predicted_class_2,gt,classname,modelname,kw,correct,correct_2,total,accuracy,accuracy_2
+0,FISH_SLICE,TEA_SPOON,bk_part_obj_color_shape,TEA_SPOON,inception_utensil_color_bias,guitar_keychain,0,8,10,0.0,0.8
+1,FISH_SLICE,TEA_SPOON,bk_part_obj_color_shape,TEA_SPOON,inception_utensil_color_bias,background_color_color_lightbronze,0,5,8,0.0,0.625
+2,FISH_SLICE,TEA_SPOON,bk_part_obj_color_shape,TEA_SPOON,inception_utensil_color_bias,background_color_color_gold,0,1,2,0.0,0.5
+3,FISH_SLICE,DINNER_FORK_KNIFE,bk_part_obj_color_shape,TEA_SPOON,inception_utensil_color_bias,middle_of_background,0,2,8,0.0,0.25
+4,FISH_SLICE,TEA_SPOON,bk_part_obj_color_shape,TEA_SPOON,inception_utensil_color_bias,bottom_of_spatula,0,5,9,0.0,0.5555555555555556
